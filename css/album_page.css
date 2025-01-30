@@ -1,0 +1,105 @@
+@import url('main.css');
+
+.album_page{
+    position: fixed;
+    z-index: 2;
+    transform-origin: center;
+    display: none;
+    width: 1096px;
+    height: 698px;
+    overflow-y: scroll;
+    background-color: #960F15;
+    border-radius: 28px;
+    margin-top: 1%;
+    padding: 0 0 50px 61px;
+    scrollbar-color: transparent;
+}
+
+.album_page::-webkit-scrollbar{
+    background-color: transparent;
+}
+
+.first_half_album{
+    display: inline-block;
+    vertical-align: top;
+    height: 110%;
+    width: 379px;
+    margin-right: 110px;
+}
+
+.back h3:hover{
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.album_img-page{
+    width: 100%;
+    height: 379px;
+    background-color: #d9d9d9;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.album_name-page{
+    width: 100%;
+    font-family: 'Jersey 25';
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 0 30px 55px 0;
+}
+
+.recension_title{
+    font-family: 'Imbue';
+    font-size: 64px;
+    width: 100%;
+    text-align: center;
+}
+
+.album_recension{
+    margin-bottom: 20px;
+    height: 140px;
+    width: 100%;
+}
+
+.recension_text{
+    width: 100%;
+    font-family: 'Inter';
+    font-weight: 400;
+    color: #DBC729;
+    margin: 0;
+}
+
+.alb_short_info{
+    font-size: 16px;
+}
+
+.alb_space{
+    height: 20px;
+    width: 100%;
+}
+
+.second_half_album{
+    padding-top: 5%;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: top;
+    height: 110%;
+    width: 560px;
+}
+
+.songs_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 619px;
+    border: solid white;
+    border-left: 1px;
+    border-right: 1px;
+    padding: 20px;
+}
+
+.wrapper{
+    width: 375px;
+    height: 450px;
+}

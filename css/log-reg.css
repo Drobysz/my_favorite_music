@@ -1,0 +1,135 @@
+body{
+    background-color: black;
+    margin: 0;
+    background-image: url('../imgs/dev/Circles2.svg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: 0 1400px;
+}
+
+.main_container{
+    margin: 0 auto;
+    height: 100vh;
+    width: 740px;
+    box-sizing: border-box;
+    padding-top: 99px;
+}
+
+.inline_box_el{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+}
+
+.logo_container{
+   height: 180px;
+   width: 448px;
+   margin: 0 auto;
+   border-radius: 70px;
+   padding-left: 8px;
+   background-color: #282828; 
+   margin-bottom: 73px;
+   display: flex;
+   align-items: center;
+  
+}
+
+.logo_img{
+    width: 125.95px;
+    height: 117.42px;
+    background: url('../imgs/dev/logo.png');
+    background-size: cover;
+    margin-right: 34px;
+}
+
+.logo_text{
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 80px;
+    background: url(https://media.giphy.com/media/0aSfNT6nqkOhOVGGnv/giphy.gif?cid=ecf05e4789xfsli06lwx67fi0qiuno961zfm3oxqsz6owsqm&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+label{
+    height: 41px;
+    width: 233px;
+    font-family: 'Julius Sans One';
+    font-size: 32px;
+    color: white;
+    opacity: 60%;
+    padding-left: 39px;
+}
+
+input:hover{
+    border: 1px solid #EC18F0;
+    box-sizing: border-box;
+}
+
+.input_block{
+    height: 67px;
+    width: 100%;
+    border-radius: 17px;
+    background-color: #212020;
+    border: 0;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 25px;
+    color: white
+}
+
+.error{
+    margin: 0;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 23px;
+    padding-left: 20px;
+    margin-bottom: 35px;
+    height: 25px;
+    width: fit-content;
+    color: red;
+}
+
+.last_error{
+    margin-bottom: 65px; 
+}
+
+.btn-submit{
+    width: 100%;
+    height: 67px;
+    background-color: rgba(236, 24, 240, 0.41); 
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Koulen';
+    font-size: 40px;
+}
+
+h3{
+    font-family: 'Jura';
+    font-weight: 400; 
+    font-size: 14px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+a{
+    font-family: 'Jura';
+    font-weight: 700;
+    color: #78a0ff;
+    font-size: 17px;
+}
+
+a:hover{
+    color:  violet;
+}
+
+

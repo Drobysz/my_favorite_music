@@ -1,0 +1,150 @@
+{ 
+    "albums": [ 
+        {
+            "name":"2001",
+            "artist":"Dr.Dre",
+            "rights_owner": "Andre Romelle Young/Aftermath Ent.",
+            "description":"Этот альбом — квинтэссенция классического хип-хопа. Каждая песня заряжена атмосферой Калифорнии. Это музыка, которая не стареет.",
+            "songs": "https://embed.music.apple.com/us/album/2001/1440782221?itscg=30200&amp;itsct=music_box_player&amp;ls=1&amp;app=music&amp;mttnsubad=1440782221&amp;theme=auto"
+        },
+        {
+            "name":"Eine kleine Nachtmusik",
+            "artist":"Wolfgang Mozart",
+            "rights_owner": "the public",
+            "description":"Эта серенада — настоящий шедевр, который помогает мне найти гармонию. Он идеально подходит для вечеров, когда хочется отвлечься от суеты. Четкость каждой ноты и невероятная легкость мелодии дают ощущение покоя",
+            "songs":"https://embed.music.apple.com/us/album/mozart-eine-kleine-nachtmusik/1452538844?itscg=30200&amp;itsct=music_box_player&amp;ls=1&amp;app=music&amp;mttnsubad=1452538844&amp;theme=auto"
+        },
+        {
+            "name":"Maliy povzroslel",
+            "artist":"Max Korzsh",
+            "rights_owner": "Maxim Anatolievich Korzsh",
+            "description":"Макс Корж — это голос моего поколения. Альбом учит быть сильным и идти к целям, не забывая о друзьях и семье.",
+            "songs":"https://embed.music.apple.com/us/album/%D0%BC%D0%B0%D0%BB%D1%8B%D0%B9-%D0%BF%D0%BE%D0%B2%D0%B7%D1%80%D0%BE%D1%81%D0%BB%D0%B5%D0%BB-%D1%87-2/1451960225?itscg=30200&amp;itsct=music_box_player&amp;ls=1&amp;app=music&amp;mttnsubad=1451960225&amp;theme=auto"
+        },
+        {
+            "name":"My beautiful dark twisted fantasy",
+            "artist":"Kanye West",
+            "rights_owner": "Kanye West/Def Jam Recordings",
+            "description":"Альбом переполнен эмоциями, от горечи до эйфории. Мне особенно близок трек ‘Runaway’, который заставляет задуматься о сложных чувствах и отношениях.",
+            "songs":"https://embed.music.apple.com/us/album/my-beautiful-dark-twisted-fantasy/1440742903?itscg=30200&amp;itsct=music_box_player&amp;ls=1&amp;app=music&amp;mttnsubad=1440742903&amp;theme=dark"
+        },
+        {
+            "name":"Nevermind",
+            "artist":"Nirvana",
+            "rights_owner": "Curt Cobain",
+            "description":"Энергия этого альбома просто зашкаливает! Каждая песня наполнена честностью и сырым эмоциям. ‘Smells Like Teen Spirit’ — это гимн свободы и бунтарства. Я чувствую связь с этой музыкой в любой момент своей жизни.",
+            "songs":"https://embed.music.apple.com/us/album/nevermind/1440783617?itscg=30200&amp;itsct=music_box_player&amp;ls=1&amp;app=music&amp;mttnsubad=1440783617&amp;theme=auto"
+        },
+        {
+            "name":"The Nutcracker",
+            "artist":"Petr Tchaikovski",
+            "rights_owner": "the public",
+            "description":"Я обожаю эту адажио, потому что он словно ожившая сказка. Каждая мелодия переносит меня в мир детства, где всё волшебно и ярко. Особенно люблю ‘Танец феи Драже’ — он настолько нежный и изысканный, что я чувствую, как будто нахожусь на рождественском балу",
+            "songs":"https://embed.music.apple.com/us/album/tchaikovsky-the-nutcracker-op-71/292623901?itscg=30200&amp;itsct=music_box_player&amp;ls=1&amp;app=music&amp;mttnsubad=292623901&amp;theme=auto"
+        },
+        {
+            "name":"Yeezus",
+            "artist":"Kanye West",
+            "rights_owner": "Kanye West/Def Jam Recordings",
+            "description":"Мне нравится ‘Yeezus’ за его смелость и экспериментальность. Этот альбом — вызов всему привычному, и в то же время он глубоко личный. Треки такие как ‘Black Skinhead’ пробуждают энергию и дают ощущение свободы.",
+            "songs":"https://embed.music.apple.com/us/album/yeezus/1440873068?itscg=30200&amp;itsct=music_box_player&amp;ls=1&amp;app=music&amp;mttnsubad=1440873068&amp;theme=dark"
+        },
+        {
+            "name":"Zvezda po imeni solnze",
+            "artist":"Kino",
+            "rights_owner": "Victor Coij/AnTrop Melody",
+            "description":"Это больше, чем музыка — это целая философия жизни. Трек ‘Пачка сигарет’ заставляет задуматься о простоте и сложности одновременно",
+            "songs":"https://embed.music.apple.com/us/album/%D0%B7%D0%B2%D0%B5%D0%B7%D0%B4%D0%B0-%D0%BF%D0%BE-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-%D1%81%D0%BE%D0%BB%D0%BD%D1%86%D0%B5/1333017666?itscg=30200&amp;itsct=music_box_player&amp;ls=1&amp;app=music&amp;mttnsubad=1333017666&amp;theme=auto"
+        }
+ ],
+    "songs": [
+        {
+            "name": "Kolkhoznik (remix)",
+            "artist": "Mnogoznal",
+            "rights_owner": "Maxim Genadievich Lazin/DUGA Ent./Mnogoznaal",
+            "description": "Maxim wrote this song in response to numerous insults in his direction. The performer himself said that he did not know how to live like a simple person. People called him “The kolchoznik” because of his clothes and behavior. And so the artist showed, in his words, “A real anthem of kolchozniks.”",
+            "url_song": "https://genius.com/Mnogoznaal-yokel-lyrics",
+            "url_prop_site": "https://www.youtube.com/@Mnogoznaal11"
+        },
+        {
+            "name": "Pure",
+            "artist": "Scriptonite",
+            "rights_owner": "Scriptonite Kilmagambetov/Musica36",
+            "description": "Его трек ‘Чистый’ словно призывает сорваться с места и создать что-то новое. Биты гипнотичные, а текст честный.",
+            "url_song": "https://genius.com/Skryptonite-ost-clean-lyrics",
+            "url_prop_site": "https://www.youtube.com/@skryp"
+        },
+        {
+            "name": "Freier",
+            "artist": "Michael Krug",
+            "rights_owner": "Michael Krug",
+            "description": "The song “Fraer” Mikhail Krug tells the story of deception and betrayal in a relationship. The text conveys the emotions of the narrator, who feels cheated and used by his partner.",
+            "url_song": "https://genius.com/Mikhail-krug-fraer-lyrics",
+            "url_prop_site": "https://www.youtube.com/channel/UCz-orYer68suYbxvv9UeDgw"
+        },
+        {
+            "name": "Eva",
+            "artist": "Vintage",
+            "rights_owner": "Eva Polna, Yurii Usatchev/Gala Records",
+            "description": "‘Ева’ — это песня, которая пробуждает эмоции и заставляет задуматься о человеческой природе. Она звучит очень искренне и глубоко.",
+            "url_song": "https://genius.com/Vintage-eva-lyrics",
+            "url_prop_site": "https://youtu.be/oDSuwebHbKo?feature=shared"
+        },
+        {
+            "name": "Foreigner",
+            "artist": "Meladze",
+            "rights_owner": "Valerij Shotaevich Meladze/Meladze Music",
+            "description": "‘Иностранец’ — это песня о поиске себя и о новых горизонтах. Её мелодия и текст захватывают, вызывая у меня чувства лёгкой грусти и надежды.",
+            "url_song": "https://genius.com/Valery-meladze-foreigner-lyrics",
+            "url_prop_site": "https://youtu.be/1v0nzSPDjkc?feature=shared"
+        },
+        {
+            "name": "La Isla Bonita",
+            "artist": "Madonna",
+            "rights_owner": "Louise Ciccone/Sire, Warner Bros.",
+            "description": "Эта песня переносит меня на солнечные острова, где жизнь кажется лёгкой и беззаботной. Я слушаю её, чтобы почувствовать тепло даже в самые холодные дни.",
+            "url_song": "https://genius.com/search?q=La%20Isla%20Bonita",
+            "url_prop_site": "https://youtu.be/zpzdgmqIHOQ?feature=shared"
+        },
+        {
+            "name": "Mister 718 (remix)",
+            "artist": "Scriptonite",
+            "rights_owner": "Scriptonite Kilmagambetov/Musica36",
+            "description": "Каждый раз, слушая этот трек, я чувствую мощный поток вдохновения. Это история, которая звучит уникально и заставляет задуматься о своём пути.",
+            "url_song": "https://genius.com/Genius-english-translations-skryptonite-718-mister-718-english-translation-lyrics",
+            "url_prop_site": "https://youtu.be/nmC6_2oYqY4?feature=shared"
+        },
+        {
+            "name": "OIDA",
+            "artist": "OXXXYMIRON",
+            "rights_owner": "Miron Janovitch Federov",
+            "description": "‘ОЙДА’ — это олицетворение мощи и энергии. Каждый раз, когда я слушаю этот трек, я чувствую желание преодолевать любые трудности.",
+            "url_song": "https://genius.com/Oxxxymiron-oida-lyrics",
+            "url_prop_site": "https://youtu.be/pYymRbfjKv8?feature=shared"
+        },
+        {
+            "name": "Week-end",
+            "artist": "Scriptonite",
+            "rights_owner": "Scriptonite Kilmagambetov/Musica36",
+            "description": "‘Выходные’ создают атмосферу расслабленности и уюта. Каждое прослушивание напоминает мне о ценности простых радостей жизни.",
+            "url_song": "https://genius.com/Skryptonite-vyhodnye-lyrics",
+            "url_prop_site": "https://youtu.be/7-tXPUF8CMw?feature=shared"
+        },
+        {
+            "name": "The grey eyes (remix)",
+            "artist": "Irina Saltikova",
+            "rights_owner": "Irina Saltikova/Studio \"Union\"",
+            "description": "Веселая песня про девушку, чьи романтические отношения не принимают в обществе.",
+            "url_song": "https://genius.com/Irina-saltykova-serye-glaza-lyrics",
+            "url_prop_site": "https://youtu.be/J9KzfyUR78c?feature=shared"
+        },
+        {
+            "name": "Who is on the phone",
+            "artist": "Scriptonite",
+            "rights_owner": "Scriptonite Kilmagambetov/Musica36",
+            "description": "Эта песня отражает современную жизнь и её ритмы. Её уникальный стиль и рифмы всегда попадают в точку.",
+            "url_song": "https://genius.com/Truwer-kto-na-telefone-interlude-annotated",
+            "url_prop_site": "https://youtu.be/LvMloaDR6uY?feature=shared"
+        }
+ ]
+}

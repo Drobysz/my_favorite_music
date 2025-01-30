@@ -1,0 +1,645 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* MAIN Container */
+.main_container{
+    box-sizing: content-box;
+    height: 1053px;
+    width: 1140px;
+}
+
+/* MENU elements */
+.menu{
+   padding-top: 37px;
+   box-sizing: border-box;
+   height: 111px;
+}
+
+.menu-content{
+    display: inline-block;
+    height: calc(100% - 10px);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+
+.inline_box_el{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+}
+
+/* Logo */
+.logo_img{
+    width: 64px;
+    height: 64px;
+    margin-right: 9px;
+    background-image: url('../imgs/dev/logo.png');
+    background-size: contain;
+}
+
+.logo_text{
+    height: 64px;
+    width: 113px;
+}
+
+.logo_text h1{
+    animation: typing 3s steps(15), blink 0.5s step-end alternate;
+    animation-fill-mode: forwards;
+    border-right: 3px solid white;
+    margin: 0;
+    font-family: 'Inter';
+    overflow: hidden;
+    font-size: 36px;
+    color: white;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 15ch; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+.logo{
+    width: 200px;
+    margin-right: 79px;
+}
+
+/* search bar */
+
+.search_bar_container{
+    width: 578px;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.search_bar{
+    width: 100%;
+    height: calc(100% - 23px);
+    border-radius: 17px;
+    border: 0.25px solid #d9d9d9;
+    padding-left: 27%;
+    background: url('../imgs/dev/Search.svg')  no-repeat #3d3d3d;
+    background-position: 10px center;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #cdc8c8;
+}
+
+.result_items_container{
+    position: absolute;
+    width: 578px;
+    height: fit-content;
+    max-height: 400px;
+    display: none;
+    background-color: #cdc8c8;
+    border-radius: 5px;
+    border: 0.25px solid #3d3d3d;
+}
+
+.result_item_block{
+    width: 100%;
+    height: 93.77px;
+    background-color: rgba(93, 91, 91, 0.16);
+}
+
+.no_result{
+    display: none;
+    font-family: "Jura";
+    font-weight: 400;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+
+}
+
+/* nickname */
+.nickname{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 129px;
+    margin-right: 3px;
+}
+
+.nickname h1{
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 20px;
+    color: #6e6e6e;
+    margin: 0;
+}
+
+/* account image */
+.acc_img{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 66px;
+    margin-right: 4px;
+    background-image: url('../imgs/dev/png-clipart-computer-icons-user-account-graphics-account-icon-vector-icons-silhouette-thumbnail.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#imgInput,
+#submit{
+    display: none;
+}
+
+#uploadBtn{
+    border: 0;
+    background-color: transparent;
+}
+
+.concealed_btn{
+    opacity: 0;
+}
+
+.concealed_btn:hover{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+}
+
+/* language */
+.lang{
+    width: 38px;
+}
+
+.user_lang{
+    display: none;
+}
+
+.langs_container{
+   position: absolute; 
+   display: none;
+   width: 50px; 
+   height: 140px;
+   padding-top: 2px; 
+   flex-direction: column; 
+   background-color: #6e6e6e;
+   border: 2px solid #3d3d3d;
+   border-radius: 10px;
+   margin-top: 175px;
+}
+
+.lang:hover .langs_container{
+   display: flex;
+   justify-content: center;
+}
+
+.lang_block{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.lang_block:last-child{
+    margin-bottom: 0; 
+}
+
+.lang_block h2:hover{
+    color: aqua;
+    border: 2px solid black;
+    background-color: #3d3d3d;
+    border-radius: 10%;
+}
+
+.lang_block h2{
+    font-family: 'Jersey 25';
+    font-size: 20px;
+}
+
+/* MUSIC CONTENT BOX */
+.music_content_box{
+    box-sizing: border-box;
+    height: 942px;
+    background-color: rgba(149, 51, 150, 0.35); 
+    border-radius: 28px;
+    padding-top: 20px;
+}
+
+/* Albums */
+.album_container{
+    width: 1109px;
+    height: 363.7px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.songs_container{
+    width: 1110px;
+    height: 500px;
+    margin: 0 auto ;
+}
+
+.title{
+    width: 1109px;
+    height: 54.9px;
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
+}
+
+.title_alb_marg{
+    margin-bottom: 20px;
+}
+
+.title_song_marg{
+    margin-bottom: 22px;
+}
+
+.title_h1{
+    height: 100%;
+    width: 315.48px;
+    font-family: 'Inter';
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    margin-right: 705px;
+}
+
+.left{
+    margin-right: 5px;
+}
+
+.left:hover,
+.right:hover{
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: rgba(217, 217, 217, 0.7);
+    border: 1px solid #6A6868;    
+}
+
+.page_changer{
+    height: 80%;
+    width: 40px;
+    align-items: end;
+    margin-bottom: 5px;
+}
+
+.album_zone{
+    width: 961px;
+    height: calc(100% - 54.9px - 20px);
+    margin: 0 auto;
+}
+
+/* Songs */
+.songs_zone{
+    height: 380px;
+    width: 1049px;
+    margin: 0 auto;
+}
+
+/* Footer */
+.footer_text{
+    font-family: 'Jura';
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+#fln{
+    color: yellow;
+}
+
+.space{
+    width: 100vw;
+    height: 100px;
+}
+
+/* scrollbar */
+
+.scrollbar::-webkit-scrollbar-track{
+    background-color: rgba(217, 217, 217, 0.2);
+    border-radius: 40px;
+}
+
+.scrollbar::-webkit-scrollbar-track:hover{
+    background-color: rgba(217, 217, 217, 0.7);
+}
+
+.scrollbar::-webkit-scrollbar-thumb{
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Overflow containers */
+
+/* Album container */
+
+.album_zone{
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: scroll;
+    padding-left: 13px;
+}
+
+.album_zone::-webkit-scrollbar{
+    width: 1018px;
+    height: 11px;
+}
+
+.album_block{
+    width: 178px;
+    margin-right: 74px;
+    flex-shrink: 0;
+    padding-top: 10px;
+}
+
+.album_block:last-of-type{
+    margin-right: 13px;
+}
+
+.album_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 178px; 
+    width: 100%;
+    background-color: #d9d9d9;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+
+.album_img:hover{
+    transform: scale(1.05);
+    transition: 'transform 0.5s ease';
+}
+
+.album_name{
+    height: 36px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+}
+
+/* Songs container */
+
+.songs_zone{
+    padding: 8px 0 0 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.songs_zone::-webkit-scrollbar{
+    width: 888px;
+    height: 11px;
+}
+
+.songs_column{
+   flex-shrink: 0;
+   height: 100%;
+   width: 507.3px;
+   margin-right: 35px;
+}
+
+.song_column:last-of-type{
+    margin: 15px;
+}
+
+.song_block{
+    height: 93.77px;
+    width: 100%;
+    margin-bottom: 22px;
+    border-radius: 5px;
+    background-color: rgba(93, 91, 91, 0.16);
+}
+
+.song_block:last-child{
+    margin-bottom: 0;
+}
+
+.song_block:hover {
+    transform: scale(1.02);
+    transition: 'transform 0.5s ease';
+} 
+
+.song_img{   
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;  
+  height: 100%;
+  width: 88.67px;
+  border-radius: 5px;
+  margin-right: 6px;
+  background-color: white;
+}
+.result_item_block .album_info,
+.song_info{
+  vertical-align: top;
+  text-align: left;
+  display: inline-block;
+  height: calc(100% - 8px);
+  width: calc(100% - 94px - 6px);
+  padding-top: 8px;
+}
+
+.song_name{
+    margin: 0;
+    margin-bottom: 8px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 15px;
+    color: white;
+}
+
+.artist_name{
+    margin: 0;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 12px;
+    color: #747272;
+}
+
+.content_block:hover{
+    background-color: white;
+    border-radius: 50px;
+    opacity: 0.7;
+}
+
+/* Player */
+
+.player{
+    position: fixed;
+    display: none;
+    align-items: center;
+    vertical-align: top;
+    width: 1140px;
+    height: 80px;
+    bottom: 10px;
+    border-radius: 20px;
+    border: 0.25px solid #d9d9d9;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.songBoardInvisible{
+    display: none;
+}
+
+.controls{
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    width: 170px;
+    z-index: 5;
+    margin-right: 28px;
+}
+
+.control_el{
+    color: white;
+    margin-right: 10px;
+}
+
+.control_el:last-child{
+    margin-right: 0;
+}
+
+.img_bar{
+    height: 65px;
+    width: 65px;
+    border-radius: 7px;
+    background: gray;
+    background-image: url('../imgs/album/Eine kleine Nachtmusik.jpg');
+    background-size: cover;
+    margin-right: 20px;
+    box-sizing: border-box;
+    border: 3px solid purple;
+}
+
+.player_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 140px;
+}
+
+.player_name{
+    margin: 0;
+    margin-bottom: 8px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 22px;
+    color: white;
+}
+
+.player_artist{
+    margin: 0;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 17px;
+    color: #cdc8c8;
+}
+
+.progress_bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    width: 600px;
+    margin-right: 25px;
+}
+
+.sng_slider{
+    appearance: none;
+    height: 10%;
+    width: 100%;
+    background-color: #ebe9e7;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.sng_slider::-webkit-slider-thumb{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #8758ff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sng_slider::-moz-range-thumb{
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background-color: #8758ff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.time_range{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+    height: 25px;
+    width: 100%;
+}
+
+.time_range h3{
+    color: white;
+    font-size: 18px;
+    font-family: 'Jura';
+    font-weight: 700;
+}
+
+.volume_container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.volume-slider {
+    transform: rotate(-90deg); 
+}
+
+.slider-container{
+    position: absolute;
+    display: none;
+    height: 200px;
+    width: 50px; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 220px;
+}
+
+.volume_container:hover .slider-container{
+    display: flex;
+}
+
+
+
